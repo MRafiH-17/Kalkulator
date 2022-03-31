@@ -97,15 +97,15 @@ const inputDecimal = (dot) => {
     currentNumber += dot
 }
 
-const Delete = document.querySelector('.delete')
+const persen = document.querySelector('.perc')
 
-Delete.addEventListener('click', () => {
-    del();
+persen.addEventListener('click', () => {
+    Pers();
     updateScreen(currentNumber)
 })
 
 
 
-const del = () => {
+const Pers = () => {
     currentNumber /= 100
 }
